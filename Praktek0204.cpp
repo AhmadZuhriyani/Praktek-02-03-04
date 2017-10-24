@@ -10,8 +10,10 @@ int main(){
 	double jumlahBoxP,biayaP,biayaPG,taotalB;
 	jumlahBoxP = luasRumah/luas1Box;
 	cout << "Jumlah Box Parket	: "<<jumlahBoxP<<endl;
-	jumlahBoxP * 500;
+	biayaPG = jumlahBoxP * 500;
 	cout << "Biaya Parket (Rp)	: "<<biayaP<<endl;
+	biayaPG = luasRumah * 20;
+	cout << "Biaya Pasang (Rp)	: "<<biayaPG<<endl;
 		
 }
 
