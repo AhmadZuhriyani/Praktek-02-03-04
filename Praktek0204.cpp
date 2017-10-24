@@ -8,5 +8,9 @@ int main(){
 	cout << "Luas Rumah		: "<<luasRumah<<" m2"<<endl;
 	cout << "Luas 1 Box Parket	: "<<luas1Box<<" m2"<<endl;
 	double jumlahBoxP,biayaP,biayaPG,taotalB;
+	jumlahBoxP = luasRumah/luas1Box;
+	cout << "Jumlah Box Parket	: "<<jumlahBoxP<<endl;
+	
+	
 }
 
